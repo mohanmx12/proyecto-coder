@@ -1,0 +1,70 @@
+$fondoDegrade: linear-gradient(to right, rgb(9, 9, 10), orange, rgb(9, 9, 10));
+
+
+.fondo{
+    background-image: $fondoDegrade;
+    /* transform: rotate(-1deg); */
+    font-size: 1rem;
+	
+
+}
+
+
+		.social{
+		
+			width:48px;
+			position:fixed;
+			top:50px;
+			right:0;
+            
+		}
+
+		.social{
+			
+			top:50%;
+			height:205px;
+			margin-top:130px;
+            
+		}
+        .logo_redes{
+            width: 40px;
+			
+        }
+		.flecha_arriba{
+			display: none;
+            width: 40px;
+			border-radius: 20px;
+			background-color: blue;
+			cursor: pointer;
+        }
+		
+	
+		.up{
+		
+			width:317px;
+			position:fixed;
+			top:50px;
+			right:0;
+			
+            
+		}
+
+		.up{
+			
+			top:92%;
+			height:205px;
+			margin-top:-10px;
+            
+		}
+		.carousel-inner img{
+			width: 100%;
+			
+		}
+	
+		.carousel-inner{
+			/* height: 200px; */
+			width: auto;
+			
+		}
+		
+		

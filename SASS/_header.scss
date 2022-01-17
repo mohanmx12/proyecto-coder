@@ -1,0 +1,18 @@
+.container-fluid{
+    width: 80%;
+    
+}
+
+.nombre_ini a{
+    display: flex;
+    border: black solid 5px;
+    margin: 10px;
+    font-size: 30px;
+    /* background-color: rgb(71, 145, 255); */
+    background-image: url(../img/portada.jpg);
+
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-light))!important;
+}
