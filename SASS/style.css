@@ -65,7 +65,7 @@
 }
 
 .logo img {
-  width: 4rem;
+  width: 5rem;
   border-radius: 20%;
 }
 
@@ -74,14 +74,17 @@
 }
 
 .nombre_ini a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   border: black solid 5px;
   margin: 10px;
   font-size: 30px;
   /* background-color: rgb(71, 145, 255); */
   background-image: url(../img/portada.jpg);
+}
+
+.titulo_principal {
+  display: none;
+  cursor: pointer;
 }
 
 .bg-light {

@@ -4,7 +4,7 @@
 }
 
 .nombre_ini a{
-    display: flex;
+    display: none;
     border: black solid 5px;
     margin: 10px;
     font-size: 30px;
@@ -12,6 +12,11 @@
     background-image: url(../img/portada.jpg);
 
 }
+.titulo_principal{
+    display: none;
+    cursor: pointer;
+}
+
 .bg-light {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-light-rgb),var(--bs-bg-light))!important;
