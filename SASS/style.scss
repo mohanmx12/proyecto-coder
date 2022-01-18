@@ -9,9 +9,18 @@
 .carousel-item img{
     
     border-radius: 10px;
-   
+     
 }
 
+.hoy{
+    width: 1000px;
+    
+     
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: rgb(23, 83, 211) solid 5px;
+    padding: 0px;
+}
 .hoy img{
     
     border-radius: 10px;
@@ -33,12 +42,18 @@
     
     
     width: 100%;
-    
+    border-radius: 20px;
+      border: rgb(23, 83, 211) solid 5px;
+      padding: 0px;
     
 }
 .marco img{
     
     width: 100%;
+    
+border-radius: 20px;
+      border: rgb(23, 83, 211) solid 5px;
+      padding: 0px;
   
 }
 .nav-item{
@@ -49,12 +64,51 @@ background-image:  linear-gradient(to top, rgb(15, 150, 240), rgb(138, 156, 255)
     display: flex;
     flex-direction: row;
   flex-wrap: wrap;
+ 
   
 }
 .videos_flex iframe{
-    width: 90%;
+  /*   width: 90%;
     margin: 10px;
+    border: orchid solid 10px; */
+    
+    width: 90%;
+   
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: rgb(23, 83, 211) solid 5px;
+    padding: 0px;
+    
 }
+.form_cont{
+    /*   width: 90%;
+      margin: 10px;
+      border: orchid solid 10px; */
+      
+      width: 90%;
+     
+      margin-bottom: 20px;
+      border-radius: 20px;
+      border: rgb(23, 83, 211) solid 5px;
+      padding: 0px;
+      
+  }
+
+.form_cont iframe{
+    /*   width: 90%;
+      margin: 10px;
+      border: orchid solid 10px; */
+      
+      width: 100%;
+     
+      margin-bottom: 20px;
+      border-radius: 20px;
+      border: rgb(23, 83, 211) solid 5px;
+      padding: 0px;
+      
+  }
+ 
+
 .navbar{
     font-family: 'Dancing Script', cursive;
 }
@@ -192,3 +246,12 @@ background-color: greenyellow;
 }
 .popup.active {opacity: 1; transform: scale(1);}
 
+.carousel{
+    display: inline-block;
+    width: 85%;
+   margin-left: 20px;
+   margin-top: 60px;
+   border-radius: 20px;
+    border: rgb(23, 83, 211) solid 5px;
+    padding: 0px;
+}
