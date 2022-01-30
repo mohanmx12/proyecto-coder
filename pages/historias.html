@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historias</title>
+    <title>Take a Walk! - Historias</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../SASS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="../arriba.js"></script>
 </head>
 <body class="fondo">
-
   <nav class="navbar navbar-expand-lg navbar-dark text-danger bg-light sticky-top uses position: sticky h2  ">
     <div class="spinner-border" role="status">
       <span class="visually-hidden">Loading...</span>
-      <nav class="logo"><img src="../img/logo_takeawalk.jpg" alt=""></nav>
+      <nav class="logo"><img class="logo" src="../img/logo_takeawalk.jpg" alt="logo"></nav>
     </div>
       <div class="container-fluid">
         <div class="nombre_ini">
-        <a class="navbar-brand" href="../index.html"> Take a Walk!</a>
+        <a class="navbar-brand titulo_principal" href="../index.html"> Take a Walk!</a>
        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -44,84 +45,67 @@
           </div>
         </div>
       </nav>
-    
+      <div class="up">
+        <a href="#"><img class="flecha_arriba" src="../img/flecha-hacia-arriba.png" alt="up"></a>
+      </div>
   <nav id="historys">
 <div class="container-fluid">
   <div class="row">
-    
   <div id="list-example" class="list-group h3">
-    <img src="../img/bio.jpg" alt="">
-    <a class="list-group-item list-group-item-action  bg-light" href="#list-item-1">Recorrido Nocturno</a>
-    <a class="list-group-item list-group-item-action  bg-light" href="#list-item-2">Soplidos en Chascomus</a>
-    <a class="list-group-item list-group-item-action  bg-light" href="#list-item-3">Caida en Zarate</a>
-    <a class="list-group-item list-group-item-action  bg-light" href="#list-item-4">Turbulencia en Ruta</a>
+    <img src="../img/bio.jpg" alt="bio">
+    <a class="list-group-item list-group-item-action  bg-light" href="#list-item-1">El Chorizo Asesino</a>
+    <a class="list-group-item list-group-item-action  bg-light" href="#list-item-2">Cupula, si, no??</a>
+    <a class="list-group-item list-group-item-action  bg-light" href="#list-item-3">No sos vos, soy yo</a>
+    <a class="list-group-item list-group-item-action  bg-light" href="#list-item-4">ZX11, Es real?</a>
   </div>
-
-
   <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
     <p id="list-item-1">...</p>
     <p>...</p>
     <div class="marco">
-      <img src="../img/bio.jpg" alt="">
-    <h4 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id necessitatibus repudiandae possimus sequi nihil obcaecati rerum, vitae, maiores, adipisci aperiam aliquid quis. Cumque sint eos velit porro corrupti vero natus.–Amiga hormiga, tengo frío y hambre, ¿no me darías algo de comer? Tú tienes mucha comida y una casa caliente, mientras que yo no tengo nada.
-
-      La hormiga entreabrió la puerta de su casa y le dijo a la cigarra.
-      
-      –Dime, amiga cigarra, ¿qué hacías tú mientras yo madrugaba para trabajar? ¿Qué hacías mientras yo cargaba con granos de trigo de acá para allá?
-      
-      –Cantaba y cantaba bajo el sol –contestó la cigarra.
-      
-      –¿Eso hacías? Pues si cantabas en el verano, ahora baila durante el invierno.
-      
-      Y le cerró la puerta, dejando fuera a la cigarra, que había aprendido la lección</h4>
+      <img src="../img/chorizo_asesino.jpg" alt="chorizo_asesino">
+    <h4 >El fin de semana ya se vislumbraba con altas probabilidades de moto y parrilla con amigos, el miércoles Chila arrancó con el primer mensaje, “pelado a donde vamos este domingo? “ Poco a poco se fueron sumando Pablino, mi hermano y el flaco Rafa. Surgieron algunas opciones y quedamos en encontrarnos en la YPF de Panamericana ramal Campana para darnos una vueltita hasta  San Antonio de Areco, es cerca y tenemos autopista hasta Pilar.
+      Cada mes más usual al momento de darle arranque a mi Z, renegué un poco ya que de no usar la moto tanto como quisiera cada dos por tres se queda sin batería y tengo que darle un empujón, suerte que arranca en medio segundo, me acuerdo cuando empujaba la ZX11, por dios que moto más pesada para andar sin batería, una vez llegamos a empujarla 3 cuadras con un amigo para que arranque.
+      Enfilo para la YPF, al llegar Pablino y Rafa ya estaban esperando, luego de unos cafecitos y el arribo de mi hermano y Chila, partimos para Areco. Era verano y hacía un calor infernal, salimos los cinco raudos en búsqueda de una parrilla. Pablino y Rafa iban con sus dos R6 Competition White lado a lado, las dos blancas parecían la súper policía caminera, eran como una versión actual y cool de Frank Poncharelo y Jon Baker, que hermosas que son!!!!! En la ruta, yo con la Z750, mi hermano con la ER6N y Chila con una XJ6 recién sacada de la agencia no le aflojábamos a las dos flechas blancas.
+      Llegamos a Areco y rumbeamos para la costanera, había varias parrillas y restaurantes, y siguiendo la teoría de que el peor lugar tiene la mejor carne paramos en una de las parrillas medio pelo de la zona. Dejamos las motos debajo de un árbol y nos dispusimos a almorzar, pedimos parrillada para 4 y marchamos unas empanadas de carne de entrada. La verdad, que como en muchas otras situaciones de la vida, las teorías se ven enfrentadas a la más cruda realidad. La parrillada incluía unos chorizos de color verdoso muy sospechosos, como si hubiesen sido traídos a pedido de Chernóbil bajo custodia de los cascos azules de la ONU, todos le esquivamos al bulto menos Chila, que después de comerse uno y medio dijo “che, me parece que estos chorizos están medios pasados, no sé si fue buena idea entrarle”.
+      Pagamos, vimos 3 minutos el río mientras discutíamos las diferencias entre la Yamaha R6 del 2007 y del 2011, superficialmente parecen iguales pero no los son, los entendidos del tema saben de que hablo. Emprendimos el viaje de regreso, la ruta estaba bien, solo algo colmada de bichos que cuando explotaban en el casco te queda un pegote que no sale ni con lija. Llegando al final de la Panamericana nos dividimos y cada uno para su casa.
+      El lunes intenté hablar con Chila para ver cómo había llegado y no contestaba, pensé que el chorizo radioactivo asesino se había cobrado un amigo, pero no, Chila resistió la prueba de la radiación……………………….pero quedó algo golpeado.</h4>
     </div>
     <p id="list-item-2">...</p>
     <p >...</p>
     <div class="marco" >
-    <img src="../img/moto2.jpg" alt="">
-    <h4 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid sed atque doloribus facere molestias dicta voluptatibus pariatur minus praesentium animi temporibus corrupti obcaecati voluptates maxime voluptate, nostrum cumque eligendi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto est aperiam cumque illo, impedit atque consectetur consequatur repudiandae! In, unde. Velit, illo. Ad nobis dicta fugiat quae perspiciatis, repellat quaerat!–Amiga hormiga, tengo frío y hambre, ¿no me darías algo de comer? Tú tienes mucha comida y una casa caliente, mientras que yo no tengo nada.
-
-      La hormiga entreabrió la puerta de su casa y le dijo a la cigarra.
-      
-      –Dime, amiga cigarra, ¿qué hacías tú mientras yo madrugaba para trabajar? ¿Qué hacías mientras yo cargaba con granos de trigo de acá para allá?
-      
-      –Cantaba y cantaba bajo el sol –contestó la cigarra.
-      
-      –¿Eso hacías? Pues si cantabas en el verano, ahora baila durante el invierno.
-      
-      Y le cerró la puerta, dejando fuera a la cigarra, que había aprendido la lección</h4>
+    <img src="../img/cupula.jpg" alt="Z750">
+    <h4 >Desde hace casi tres años soy feliz propietario de una Kawasaki Z750 2009, una moto muy divertida de manejar, que mantiene un buen nivel de comodidad y tiene lo suyo cuando abrimos gas, toda moto que tenga más de 100 HP hace sentir sus caballos. Ya con algunos kilómetros recorridos estoy convencido que es una moto casi perfecta, salvo por la inevitable ausencia de protección aerodinámica, sino no sería una naked. En mi cabeza comienzan a revolotear ideas de cambio, quizás pasarme a la última joya de la ingeniería, la nueva ZX6 con horquilla delantera BPF de Showa y un motor que es el centro de todos los elogios, o la hermosísima Yamaha R6, una moto de la cual estoy perdidamente enamorado y juré algún día tener una, aunque sea unos meses.
+      De todos modos, he tenido oportunidad de probarlas y al cabo de unos kilómetros quiero volver a mi Z, es que la sensación de torque disponible que ofrece mi moto a todo momento es excelente, sobre todo si circulamos por zonas de tráfico donde las motos “pista” hacen sentir su postura de manejo y comienzan a dolerte muñecas y codos, eso mis amigos con la Z no pasa, puedes hacer 400 km con ella y bajarte como si recién hubieses salido.
+      Como buen aficionado a las dos ruedas, en mi tiempo libre leo sobre motos en revistas e internet, sobre todo en los foros españoles donde esta Kawa es muy popular. Me llama la atención que el tema del viento y las cúpulas es recurrente, no debo ser el único que sufre las naked. Por supuesto sobre gustos no hay nada escrito, están los que opinan que una naked con cúpula es el santo grial, y otros más puristas que prefieren el viento en el pecho, a lo macho, si queres protección comprate otro tipo de moto. Bueno, esto último quizás aplique en Europa, pero aquí en Argentina las motos de alta gama no son nada económicas y si pensamos en cambiar la moto, no se hace una decisión fácil que uno puede tomar a la ligera, por lo menos en mi caso.
+      Para mi sorpresa veo una oferta razonable de cúpulas en venta aquí en Argentina, encuentro tanto importadas con valores en Euros como nacionales más accesibles. Le doy vueltas al tema hasta que decido probar en carne propia si este accesorio hace la diferencia o no. Específicamente para mi modelo solo consigo una cúpula, la compro y me preparo a instalarla. Colocarla es muy fácil, está todo preparado para que lo pueda hacer casi cualquier persona, sin la más mínima experiencia en mecánica.
+      Como diría mi hermano científico, ya estamos listos para las pruebas de campo. Decido salir a probar la nueva adquisición, salgo a la autopista pero un terrible tráfico de hora pico me frena, claro, mi excitación no me permitió prestar atención a la hora. Velocidad máxima obtenida, 80 km/h, no siento ninguna diferencia, pero decido no tomar decisiones apresuradas. A los pocos días decido hacer otra pruebita, esta vez la autopista está más liberada y logro velocidades superiores a los 100 km/h, ahora sí, esto está empezando a funcionar. La presión del viento que antes sentía a los 100 km/h, ahora la percibo arriba de los 120 km/h, y se pode cada vez mejor.
+      Claro está la protección aerodinámica de mi modesta cúpula es limitada, sobre todo porque se trata de una de las más pequeñas que hay disponibles, los hombros y brazos siguen estando a la merced del viento, pero ya el pecho no sufre tanto y si me inclino un poco sobre el tanque parte de mi casco deja de sentir la presión del viento. Funciona.
+      Todo este tema de la cúpula me recuerda a un hombre que paró a mi lado en una estación de servicio de la ruta 2 en una de las salidas de fin de semana, tendría unos 60 años, andaba con una Yamaha Fazer 600 con una cúpula bastante grande, la verdad estéticamente era un asco, entonces le pregunto al señor si sentía la diferencia con la cúpula, y me respondió “Pibe, esto te salva la vida”, bueno no sé si para tanto pero este experimentado hombre no peinaba canas en vano, es de más comprensible que a su edad uno busque la practicidad y comodidad, creo que yo haría lo mismo dentro de varias décadas, no me veo a los 70 en una pista híper radical, el tiempo lo dirá.
+      Finalizando el tema les dejo mi conclusión, si sos de los puritanos ortodoxos del diseño, dejá tu naked como está, si te mantenes dentro de los límites legales de velocidad no necesitas nada más que un buen casco para viajar cómodo. Si la parte estética te preocupa pero querés un poco mas de protección hay muchas cúpulas que podés instalar, sobre todo las importadas de diseño acorde a tu moto. Si estás en búsqueda de la máxima comodidad que puedas sacarle a tu moto sin cambiarla por otra con carenado, la cúpula es una opción más que aceptable y funciona, o como dijo el señor canoso de la estación de servicio, te salva la vida..…</h4>
     </div>
     <p id="list-item-3">...</p>
     <p>...</p>
     <div class="marco">
-      <img src="../img/moto2.jpg" alt="">
-    <h4 id="list-item-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate porro voluptas in aspernatur dicta aliquam excepturi! Corrupti ipsa quia, corporis aut harum vero est quaerat animi omnis iure esse deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptas, ipsam perspiciatis veniam quos repudiandae est voluptates earum reiciendis, iusto voluptate neque commodi vitae eos. Ab at rerum in harum.–Amiga hormiga, tengo frío y hambre, ¿no me darías algo de comer? Tú tienes mucha comida y una casa caliente, mientras que yo no tengo nada.
-
-      La hormiga entreabrió la puerta de su casa y le dijo a la cigarra.
-      
-      –Dime, amiga cigarra, ¿qué hacías tú mientras yo madrugaba para trabajar? ¿Qué hacías mientras yo cargaba con granos de trigo de acá para allá?
-      
-      –Cantaba y cantaba bajo el sol –contestó la cigarra.
-      
-      –¿Eso hacías? Pues si cantabas en el verano, ahora baila durante el invierno.
-      
-      Y le cerró la puerta, dejando fuera a la cigarra, que había aprendido la lección</h4>
+      <img src="../img/no_sos_vos.jpeg" alt="CBR 600">
+    <h4 id="list-item-3">Creo que una de las motos más populares en la década del noventa en Argentina fue la Honda CBR 600, comenzando por la primer Hurricane de finales de los ochenta hasta las F4 del debacle del 2000, recuerdo haber visto alguna Hurricane dando vueltas por ahí. Recientemente se lanzó en Europa la nueva CBR600F 2011, una suerte de Hornet carenada, muy bien lograda, moto que  Honda no tenía en su catálogo desde el 2006. De todos los modelos de CBR, no sé si porque formó parte de mi adolescencia o porque hubo un auge de ventas en la época del uno a uno y los viajes a Miami, las CBR 600 F2 y F3 quedaron en mi mente como motos hermosas hasta el día de hoy. No puedo dejar de recordar la F2 violeta y negra del 94 o la F3 amarilla y negra del 97, que naves.
+      Pasó el tiempo, una cosa llevó a la otra y nunca pude concretar mi sueño de tener una. Un día nos juntamos a comer un asado en lo de mis suegros y mi concuñado cae con una F3 blanca y roja impecable, toda original con 20.000 millas. Le pregunto “de donde sacaste esta nave? La tengo hace tiempo me dice, no la uso demasiado”. Volvieron a mi esos recuerdos de pre adolescencia donde veía pasar las Hondas y me quedaba babeando idiotizado por una simple moto.
+      Pasó el tiempo, yo ya andaba en mi Kawasaki Z750 2009 y un día decidimos hacerle un pequeño Service a la CBR de mi cuñado, se le había podrido la nafta en los carburadores de no usarla y no quería arrancar. Desarmamos carenado, tanque, filtro de aire, y treinta mil mangueras hasta que logramos sacar los carburadores para limpiarlos. Quedaron impecables, a ponerlos y ver como quedó la máquina. La historieta de los carburadores nos terminó llevando casi todo el día, ya que estábamos cambiamos todos los filtros y el aceite. De paso, ya que estábamos en tema limpiamos y lubricamos todos los comandos, acelerador, embrague, freno, etc. Quedó diez puntos.
+      Salimos a probar la moto, yo en mi Z y mi cuñado en su CBR y dimos una vuelta corta y cada uno a su casa. Al poco tiempo combinamos en otra salida y decidimos intercambiar motos, era mi oportunidad de manejar la moto de mis sueños, la que había añorado tantos años de pubertad.
+      La moto funciona a la perfección, desde el punto de vista ergonómico su posición de manejo es un intermedio entre las “pista” actuales (entiéndase R6) y mi cómoda Z750, con las muñecas cargadas hasta cierto punto, carenado amplio que cubre bien casi todo el cuerpo, me recuerda la ZX11 de un amigo, te recuestas sobre el tanque y el viento ni te toca. Ahora bien, en lo que a performance respecta, yo esperaba algo parecido a mi moto, ambas tienen similar potencia, torque y peso, si bien son motos distintas, las cifras por lo menos en el papel son similares.
+      Mis estimados lectores, nada más lejano de la realidad, la vieja CBR se siente pesada, lenta, tosca, de seguro estoy plenamente influenciado por la costumbre de andar en una moto de última generación con inyección electrónica, mejores cubiertas y suspensiones y, por sobre todas las cosas, 14 años menos. Los años se sienten y mucho, no me malinterpreten, la CBR sigue siendo una moto excelente para la mayoría de los mortales, pero los años no llegan solos. Siento que todo es duro en esta CBR, pero no duro como la radical R6, sino duro como oxidado, bueno quizás lo esté.
+      Luego de dar unas vueltas cambiamos nuevamente de moto y cada uno vuelve a su moto habitual, mi dios siento que la Z750 es alguna clase de tecnología alienígena en comparación de mi veterana amiga. Luego café mediante comenzamos a hablar de las motos, estas dos y tantas otras, como siempre sucede cuando se juntan amigos y motos. No dejo de pensar en la CBR, habrá sido así siempre? O soy yo que no puedo apreciar las cualidades de esta máquina que me dejó más de una noche sin dormir, o me acostumbré muy rápido a las cualidades de la nueva Z750 y mi amada CBR pierde brillo a su lado. Es como una hermosa mujer de 40 años al lado de una adolecente de 18, son muy distintas.
+      Ya finalizando el día y volviendo a casa con mi Z pienso, todos fuimos más chicos, jóvenes si se quiere, no puedo pretender que la CBR se mantenga intacta por tanto tiempo, todos envejecemos y las motos no son la excepción. Estacionando mi moto en el garaje pienso en como hubiera sido manejarla de cero kilómetro, cuando salió a las calles por primera vez. Estoy seguro que excelente, por algo es una de las motos más vendidas en la historia. Es que cuando tenemos un amor platónico no podemos pretender ser racionales, como cuando volvemos a encontrar a esa compañera del colegio con la cuál soñamos estar juntos y la vida no lo permitió, todo lo que uno idealizó se va al piso en minutos, y claro, el tiempo pasa para todos pero siempre nos quedarán los buenos recuerdos.</h4>
     </div>
     <p id="list-item-4">...</p>
     <p>...</p>
     <div class="marco">
-      <img src="../img/moto2.jpg" alt="">
-    <h4 >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero cumque, facilis commodi repellat nihil explicabo doloremque placeat consequuntur eius sunt saepe quae cupiditate fuga similique et iusto illum! Placeat, temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae cum adipisci vero fuga velit nisi iste ipsum magni nobis? Tenetur non provident vel saepe dolor et temporibus delectus porro sint.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quibusdam beatae vitae placeat labore eum unde sed qui soluta. Dolore aperiam esse ullam tempore earum cum iure error mollitia! Atque.–Amiga hormiga, tengo frío y hambre, ¿no me darías algo de comer? Tú tienes mucha comida y una casa caliente, mientras que yo no tengo nada.
-
-      La hormiga entreabrió la puerta de su casa y le dijo a la cigarra.
-      
-      –Dime, amiga cigarra, ¿qué hacías tú mientras yo madrugaba para trabajar? ¿Qué hacías mientras yo cargaba con granos de trigo de acá para allá?
-      
-      –Cantaba y cantaba bajo el sol –contestó la cigarra.
-      
-      –¿Eso hacías? Pues si cantabas en el verano, ahora baila durante el invierno.
-      
-      Y le cerró la puerta, dejando fuera a la cigarra, que había aprendido la lección</h4>
+      <img src="../img/zx11.jpg" alt="zx11">
+    <h4 >Esta historia comienza cuando yo tenía 16 años y mis viejos habían arreglado con una pareja amiga para cenar, tanto mi viejo como  su amigo eran moteros de toda la vida, no puedo ni enumerar la cantidad de motos que tuvieron y usaron, estaríamos todo el día. Era verano y anochecía tarde, cerca de las 19 hs llega Willy con su nueva adquisición, el amigo en cuestión que con el tiempo también nos hicimos amigos del alma y compartimos más de una salida, una Kawasaki ZX11 modelo 1994 negra impecable con 2.000 millas, nunca había visto algo tan espectacular en mi vida, me asomo para ver el velocímetro y veo que marca 200 mph en la escala blanca y 320 km/h en azul, que? Esto no puede ser real, 320 km/h? Se puede manejar a esa velocidad? Que estoy diciendo, se puede respirar a esa velocidad? Al ponerla en contacto se encienden en rojo las luces del tablero y se deja ver el diablo que hay dentro.
+      Willy se ofrece a llevarnos a mí y a mi hermano a dar una vuelta, si tenemos en cuenta que la moto que en ese momento estaba en casa era una BMW R60 del año 69 se darán cuenta que no estaba preparado para tal demostración de poder. Sin darme cuenta me agarré solamente del asa trasera, grave error, en la primera aceleración sentí como lentamente Willy y la moto se separaban de mí, casi como si estuviéramos en planos temporales distintos. Primer semáforo y no tardé un segundo en agarrarme firmemente. La aceleración de esa moto era algo que mi cerebro aún no podía asimilar, tiene un motor o un reactor nuclear? De pronto todo a mi alrededor se paralizaba, pasaba en cámara lenta mientras avanzábamos en línea recta, tanto los autos que circulaban en nuestro sentido como los de la mano contraria parecían casi inmóviles. Una experiencia reveladora que marcaría mi vida para siempre.
+      Con el tiempo y ya con mi carnet de conducir Willy decide prestarme la moto unos días para que la use ya que él se iba de viaje y no quería que se le descargara la batería, luego con el tiempo comprendí que el tema de la batería fue solo una excusa para que yo pudiera disfrutar de esa nave como si fuera mía, aunque mas no fuera por unos días. Hoy pienso que hasta hubo una pisca de irresponsabilidad de parte de ambos, tengo la edad que Willy tenía cuando me prestó la ZX11 y no me veo prestando mi  Z750 a un adolecente, o quizás sí, el tiempo lo dirá.
+      Las primeras vueltas con la Kawa fueron un tanto tímidas si se quiere, pero a una hora de usarla la sensación de calidad, estabilidad y finura ya eran evidentes.  El poder de aceleración de esta moto y la capacidad de frenada eran impresionantes, y siguen estando vigentes hoy en día si la ponemos hombro a hombro con alguna de las últimas sport turismo que circulan por la calle, por supuesto, la maniobrabilidad no era su fuerte, menos si pensamos en los casi 260 kilos que pesaba en orden de marcha, no obstante no está lejos de una BMW K1200S o la flamante Z1000SX presentada por Kawasaki hace poco, a mi entender esta última digna sucesora de la grandiosa ZX11, se ve que los amigos de Akashi sabe de lo que hablan, cuando la pruebe les cuento.
+      Ni hablar del resguardo aerodinámico que ofrece, nos agachamos un poco sobre el tanque de combustible y el viento nos pasa por encima, detrás del parabrisas es todo tranquilidad y solo se siente el rugido del motor, algo que te pone la piel de gallina al llegar a las 11.000 rpm. En tramos rectos la moto va firme, sólida, estable, casi como un tren bala, la capacidad de esta moto para acelerar es inaudita. Luego con el pasar de los años tuve la oportunidad de poseer y pilotear otras motos grandes, pero la ZX11 dejó en mi una marca imborrable, no sé si fue porque se trató de la primera moto poderosa que manejé o si mi capacidad de asombro se ha ido perdiendo con los años, pero siempre recordaré a esta máquina como una de las mejores motos que se puede tener el placer de manejar,  quizás el que posea una o la haya manejado me entienda, hay motos que son correctas en todo pero que ciertos detalles no terminan de convencernos, esta ZX11 fue la moto más fina que manejé hasta ahora, no por nada fue elegida como una de las mejores motos de todos los tiempos en una conocida revista de motos inglesa.
+      Por supuesto con el paso del tiempo y las mejoras tecnológicas las motos se vuelven más dóciles, seguras, estables, fáciles de manejar, con mayores rendimientos y desempeño, solo espero poder volver a manejar una ZX11 algún día y comprobar si mis recuerdos son reales o han sido distorsionados con el tiempo como ese primer amor de la niñez, ya nos volveremos a ver amor.</h4>
     </div>
     <p>...</p>
   </div>
@@ -129,31 +113,16 @@
 </div>
 </nav>
 <footer class="footer"> 
-  
   <footer class="page-footer font-small blue pt-1">
-  
-    
     <div class="container-fluid text-md-left text-md-left">
-  
-      
       <div class="row">
-  
-        
         <div class="col-md-3 mt-md-0 mt-3">
-  
           <h5 class="text-uppercase">Take a Walk!</h5>
           <p>Tiene todos los derechos reservados.</p>
-  
         </div>
-       
-  
         <hr class="clearfix w-100 d-md-none pb-3">
-  
-        
         <div class="col-md-3 mb-md-0 mb-3">
-  
           <h5 class="text-uppercase">Acerca de:</h5>
-
           <ul class="list-unstyled">
             <li>
               <a href="../pages/biografia.html">Compañia</a>
@@ -162,14 +131,9 @@
               <a href="../pages/contacto.html">Prensa</a>
             </li>
           </ul>
-  
         </div>
-        
         <div class="col-md-3 mb-md-0 mb-3">
-  
-         
           <h5 class="text-uppercase">Asistencia</h5>
-  
           <ul class="list-unstyled">
             <li>
               <a href="../pages/contacto.html">Visitas Guiadas</a>
@@ -178,36 +142,23 @@
               <a href="../pages/contacto.html">Informacion Extra</a>
             </li>
           </ul>
-  
         </div>
-        
-  
       </div>
-      
-  
     </div>
-    
     <div class="footer-copyright text-center py-1">© 2022 Copyright:
       <a href="https://www.instagram.com/takeawalk_oficial/"> milan.mohanna</a>
     </div>
-    
-  
+    <div class="up">
+      <a href="#"><img class="flecha_arriba" src="../img/flecha-hacia-arriba.png  " alt="up"></a>
+    </div>
   </footer>
-  
   </footer>
-
-  <div class="up">
-    <a href="#historys"><img class="flecha_arriba" src="../img/flecha-hacia-arriba.png" alt="up"></a>
-   
-  </div>
-
   <div class="social">
     <a href="https://www.facebook.com/"><img class="logo_redes" src="../img/logo_redes/facebook.png" alt="facebook"></a>
     <a href="https://www.youtube.com/channel/UCtUBY8jFsaPK7P3RFAwdrMg"><img class="logo_redes" src="../img/logo_redes/youtube.png" alt="youtube"></a>
     <a href="https://www.instagram.com/takeawalk_oficial/"><img class="logo_redes" src="../img/logo_redes/instagram.png" alt="instagram"></a>
     <a href="https://www.whatsapp.com/"><img class="logo_redes" src="../img/logo_redes/whatsapp (1).png" alt="whatsapp"></a>
   </div>
-
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>       
 </body>
 </html>

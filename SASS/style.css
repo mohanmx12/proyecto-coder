@@ -1,7 +1,5 @@
 .fondo {
-  background-image: -webkit-gradient(linear, left top, right top, from(#09090a), color-stop(orange), to(#09090a));
-  background-image: linear-gradient(to right, #09090a, orange, #09090a);
-  /* transform: rotate(-1deg); */
+  background-image: url(../img/empty-dark-room-modern-futuristic-sci-fi-background-3d-illustration.jpg);
   font-size: 1rem;
 }
 
@@ -69,7 +67,6 @@
   border: black solid 5px;
   margin: 10px;
   font-size: 30px;
-  /* background-color: rgb(71, 145, 255); */
   background-image: url(../img/portada.jpg);
 }
 
@@ -97,9 +94,6 @@
   margin: 10px;
 }
 
-/* .list-group:hover{
-    background-image: linear-gradient(to top, rgb(0, 89, 255), rgb(14, 50, 255), rgb(31, 3, 24));
-} */
 .list-group-item {
   color: blanchedalmond;
   height: 60px;
@@ -109,11 +103,11 @@
   padding: 0px;
 }
 
-/* .list-group-item:hover{
-    color: rgb(5, 4, 15);
-} */
 #historys h4 {
   font-family: 'Dancing Script', cursive;
+  background-color: #444494;
+  opacity: 0.4;
+  color: whitesmoke;
 }
 
 .carousel-item img {
@@ -126,14 +120,13 @@
   border-radius: 20px;
   border: #1753d3 solid 5px;
   padding: 0px;
+  background-color: rgba(0, 60, 255, 0.685);
 }
 
 .hoy img {
   border-radius: 10px;
   height: auto;
   width: 100%;
-  /* margin: -110px; */
-  /*  margin-inline-start: auto; */
 }
 
 .biografy {
@@ -176,9 +169,6 @@
 }
 
 .videos_flex iframe {
-  /*   width: 90%;
-    margin: 10px;
-    border: orchid solid 10px; */
   width: 90%;
   margin-bottom: 20px;
   border-radius: 20px;
@@ -187,9 +177,6 @@
 }
 
 .form_cont {
-  /*   width: 90%;
-      margin: 10px;
-      border: orchid solid 10px; */
   width: 90%;
   margin-bottom: 20px;
   border-radius: 20px;
@@ -198,9 +185,6 @@
 }
 
 .form_cont iframe {
-  /*   width: 90%;
-      margin: 10px;
-      border: orchid solid 10px; */
   width: 100%;
   margin-bottom: 20px;
   border-radius: 20px;
@@ -286,7 +270,6 @@ p {
   font-size: 10px;
   border-radius: 60px;
   border: #010114 solid 10px;
-  /*    width: 450px; */
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -310,7 +293,6 @@ p {
 }
 
 .btn-abrir-popup h1 {
-  /*  font-family: 'Bebas Neue', cursive; */
   font-family: 'Permanent Marker', cursive;
   font-size: 25px;
   display: -webkit-box;
@@ -319,8 +301,6 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  /* padding: 20px; */
-  /* margin: 200px; */
   cursor: pointer;
   -ms-flex-line-pack: center;
       align-content: center;
@@ -343,7 +323,6 @@ p {
   font-size: 26px;
   font-weight: 300;
   margin-bottom: 40px;
-  /* opacity: 0; */
 }
 
 .popup form .contenedor-inputs input {
@@ -382,10 +361,28 @@ p {
 .carousel {
   display: inline-block;
   width: 85%;
-  margin-left: 20px;
-  margin-top: 60px;
+  margin-left: 40px;
+  margin-top: 80px;
+  margin-bottom: 10px;
   border-radius: 20px;
   border: #1753d3 solid 5px;
   padding: 0px;
+}
+
+.texto_index p {
+  background-color: #444494;
+  opacity: 0.4;
+  color: whitesmoke;
+}
+
+.carousel-caption h5 {
+  color: #fa1d1d;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.carousel-caption p {
+  color: #ff000d;
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */

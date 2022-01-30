@@ -1,16 +1,11 @@
 .list-group {
-
-background-image: linear-gradient(to top, rgb(146, 102, 5), rgb(138, 156, 255), rgb(255, 94, 0));
-border: rgb(29, 29, 49) solid 7px;
-width: 38rem;
-height: auto;
-padding: 10px;
-margin: 10px;
-
+    background-image: linear-gradient(to top, rgb(146, 102, 5), rgb(138, 156, 255), rgb(255, 94, 0));
+    border: rgb(29, 29, 49) solid 7px;
+    width: 38rem;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
 }
-/* .list-group:hover{
-    background-image: linear-gradient(to top, rgb(0, 89, 255), rgb(14, 50, 255), rgb(31, 3, 24));
-} */
 .list-group-item{
     color:blanchedalmond;
     height: 60px;
@@ -19,9 +14,9 @@ margin: 10px;
     border: rgb(23, 83, 211) solid 5px;
     padding: 0px;
 }
-/* .list-group-item:hover{
-    color: rgb(5, 4, 15);
-} */
 #historys h4{
     font-family: 'Dancing Script', cursive;
+    background-color: rgb(68, 68, 148);
+    opacity: 0.4;
+    color: whitesmoke;
 }
